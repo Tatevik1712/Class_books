@@ -38,17 +38,17 @@ public:
     bool is_available() const;      // метод is_available, возвращает значение поля available
 
     // Setters (установка значения атрибута)
-    void set_title(string title); // метод set_title, устанавливает значение поля title
-    void set_author(string author); // метод set_author, устанавливает значение поля author
-    void set_genre(string genre); // метод set_genre, устанавливает значение поля genre
-    void set_publisher(string publisher); // метод set_publisher, устанавливает значение поля publisher
-    void set_language(string language); // метод set_language, устанавливает значение поля language
+    void set_title(string title);                // метод set_title, устанавливает значение поля title
+    void set_author(string author);              // метод set_author, устанавливает значение поля author
+    void set_genre(string genre);                // метод set_genre, устанавливает значение поля genre
+    void set_publisher(string publisher);        // метод set_publisher, устанавливает значение поля publisher
+    void set_language(string language);          // метод set_language, устанавливает значение поля language
     void set_year_published(int year_published); // метод set_year_published, устанавливает значение поля year_published
-    void set_pages(int pages); // метод set_pages, устанавливает значение поля pages
-    void set_rating(float rating); // метод set_rating, устанавливает значение поля rating
-    void set_available(bool available); // метод set_available, устанавливает значение поля available
+    void set_pages(int pages);                  // метод set_pages, устанавливает значение поля pages
+    void set_rating(float rating);              // метод set_rating, устанавливает значение поля rating
+    void set_available(bool available);         // метод set_available, устанавливает значение поля available
 
-    string to_string() const; // метод to_string, возвращает строковое представление объекта Book
+    string to_string() const;                   // метод to_string, возвращает строковое представление объекта Book
 };
 
 void testBookConstructorAndGetters();

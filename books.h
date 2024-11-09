@@ -7,15 +7,15 @@ class Book{
 
 //раздел частных членов класса
 private: 
-    string title; // название книги
-    string author; //автор книги
-    string genre; //жанр
-    string publisher; //издательство
-    string language; //язык
+    string title;       // название книги
+    string author;      //автор книги
+    string genre;       //жанр
+    string publisher;   //издательство
+    string language;    //язык
     int year_published; //год выпуска
-    int pages; //кол-во страниц
-    float rating; //рейстинг от 0 до 5
-    bool available ; //доступность 
+    int pages;          //кол-во страниц
+    float rating;       //рейстинг от 0 до 5
+    bool available ;    //доступность 
 
 //раздел публичных членов класса
 public: 

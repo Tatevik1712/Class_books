@@ -7,7 +7,7 @@ class Book{
 
 //раздел частных членов класса
 private: 
-    string title;       // название книги
+    string title;       // название книги ***********************************
     string author;      //автор книги
     string genre;       //жанр
     string publisher;   //издательство

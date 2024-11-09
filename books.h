@@ -27,15 +27,15 @@ public:
          int year_published, string language, int pages, float rating, bool available); //объявление конструктора с параметрами
 
    // Getters (получение значения атрибута)
-    string get_title() const; // метод get_title, возвращает значение поля title
-    string get_author() const ; // метод get_author, возвращает значение поля author
-    string get_genre() const ; // метод get_genre, возвращает значение поля genre
-    string get_publisher() const; // метод get_publisher, возвращает значение поля publisher
-    string get_language() const; // метод get_language, возвращает значение поля language
+    string get_title() const;       // метод get_title, возвращает значение поля title
+    string get_author() const ;     // метод get_author, возвращает значение поля author
+    string get_genre() const ;      // метод get_genre, возвращает значение поля genre
+    string get_publisher() const;   // метод get_publisher, возвращает значение поля publisher
+    string get_language() const;    // метод get_language, возвращает значение поля language
     int get_year_published() const; // метод get_year_published, возвращает значение поля year_published
-    int get_pages() const; // метод get_pages, возвращает значение поля pages
-    float get_rating() const; // метод get_rating, возвращает значение поля rating
-    bool is_available() const; // метод is_available, возвращает значение поля available
+    int get_pages() const;          // метод get_pages, возвращает значение поля pages
+    float get_rating() const;       // метод get_rating, возвращает значение поля rating
+    bool is_available() const;      // метод is_available, возвращает значение поля available
 
     // Setters (установка значения атрибута)
     void set_title(string title); // метод set_title, устанавливает значение поля title

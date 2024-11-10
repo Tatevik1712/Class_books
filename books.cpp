@@ -113,7 +113,6 @@ void Book::set_rating(float rating) {
 }
 
 
-// public
 // Метод для установки доступности книги
 void Book::set_available(bool available) {
     this->available = available; 
@@ -126,7 +125,7 @@ string Book::to_string() const {
     ss << title << " " << author << " " << genre << " " << publisher << " " 
        << year_published << " " << pages << " " << rating << " "
        << (available ? "true" : "false"); 
-    return ss.str(); // Возврат сформированной строки
+    return ss.str();
 }
 
 

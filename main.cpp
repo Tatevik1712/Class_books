@@ -6,7 +6,7 @@ using namespace std; // Использование пространства им
 
 // Функция для печати информации о книге
 void print_book(const Book & book) { 
-    cout << book.to_string(); // Вывод строки, полученной из метода to_string() класса Book
+    cout << book.to_string(); // Вывод строки, полученной из метода to_string()
 }
 
 

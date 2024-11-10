@@ -33,7 +33,7 @@ Book::Book(const string title, const string author, const string genre, const st
 }
 
 // Метод для установки названия книги
-void Book::set_title(string title) {
+void Book::set_title(const string& title) {
     if (!title.empty()) { // Проверка, что название не пустое
         this->title = title;
     } else {
@@ -43,7 +43,7 @@ void Book::set_title(string title) {
 }
 
 // Метод для установки автора книги
-void Book::set_author(string author) {
+void Book::set_author(const string& author) {
     if (!author.empty()) { // Проверка, что автор не пустой
         this->author = author;
     } else {
@@ -53,7 +53,7 @@ void Book::set_author(string author) {
 }
 
 // Метод для установки жанра книги
-void Book::set_genre(string genre) {
+void Book::set_genre(const string& genre) {
     if (!genre.empty()) { // Проверка, что жанр не пустой
         this->genre = genre;
     } else {
@@ -63,7 +63,7 @@ void Book::set_genre(string genre) {
 }
 
 // Метод для установки издательства книги
-void Book::set_publisher(string publisher) {
+void Book::set_publisher(const string& publisher) {
     if (!publisher.empty()) { // Проверка, что издательство не пустое
         this->publisher = publisher;
     } else {
@@ -73,7 +73,7 @@ void Book::set_publisher(string publisher) {
 }
 
 // Метод для установки года публикации
-void Book::set_year_published(int year_published) {
+void Book::set_year_published(short year_published) {
     if (year_published > 0) { // Проверка, что год положительный
         this->year_published = year_published;
     } else {
@@ -83,7 +83,7 @@ void Book::set_year_published(int year_published) {
 }
 
 // Метод для установки языка книги
-void Book::set_language(string language) {
+void Book::set_language(const string& language) {
     if (!language.empty()) { // Проверка, что язык не пустой
         this->language = language;
     } else {
@@ -93,7 +93,7 @@ void Book::set_language(string language) {
 }
 
 // Метод для установки количества страниц
-void Book::set_pages(int pages) {
+void Book::set_pages(unsigned int pages) {
     if (pages > 0) { // Проверка, что количество страниц положительное
         this->pages = pages;
     } else {
@@ -112,6 +112,8 @@ void Book::set_rating(float rating) {
     }
 }
 
+
+// public
 // Метод для установки доступности книги
 void Book::set_available(bool available) {
     this->available = available; 

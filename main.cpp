@@ -10,7 +10,6 @@ void print_book(const Book & book) {
 }
 
 
-
 void testBookConstructorAndGetters() {
     // Тест 1: конструктор с параметрами
     Book book1("1984", "Джордж Оруэлл", "Антиутопия", "Симон и Шустер", 1949, "Английский", 328, 4.7, true);
